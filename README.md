@@ -34,6 +34,7 @@ module.exports = appInfo => {
 
 
 // [Project]/app/controller/home.js  // example
+// all methods are promisified
 await app.cache.set('a', 2)
 let a = app.cache.get('a')
 ```
