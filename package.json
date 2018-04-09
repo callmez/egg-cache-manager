@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/callmez/egg-cache-manager#readme",
   "eggPlugin": {
-    "name": "cache"
+    "name": "cache-manager"
   }
 }
