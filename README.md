@@ -19,7 +19,6 @@ module.exports = appInfo => {
   ...
   
   config.cache = {
-    // 单数据库信息配置
     client: {
       store: 'memory', // default store
       options: { 
