@@ -1,6 +1,6 @@
 {
   "name": "egg-cache-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-cache-manager plugin for egg",
   "main": "app.js",
   "directories": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/callmez/egg-cache-manager/issues"
   },
-  "homepage": "https://github.com/callmez/egg-cache-manager#readme"
+  "homepage": "https://github.com/callmez/egg-cache-manager#readme",
+  "eggPlugin": {
+    "name": "cache"
+  }
 }
