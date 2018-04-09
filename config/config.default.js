@@ -1,0 +1,7 @@
+module.exports = {
+  cache: {
+    client: {
+
+    }
+  }
+}

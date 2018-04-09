@@ -1,0 +1,26 @@
+{
+  "name": "egg-cache-manager",
+  "version": "1.0.0",
+  "description": "node-cache-manager plugin for egg",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cache-manager": "^2.9.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmez/egg-cache-manager.git"
+  },
+  "keywords": [
+    "egg",
+    "cache"
+  ],
+  "author": "callme-z@qq.com",
+  "bugs": {
+    "url": "https://github.com/callmez/egg-cache-manager/issues"
+  },
+  "homepage": "https://github.com/callmez/egg-cache-manager#readme"
+}
