@@ -7,7 +7,7 @@
 // [Project]/config/plugin.js
 exports.cache = {
   enable: true,
-  path: 'egg-cache-manager',
+  package: 'egg-cache-manager',
 };
 
 // @see [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager)
