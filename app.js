@@ -1,3 +1,5 @@
 'use strict'
 
-module.exports = require('./lib/cache')
+module.exports = app => {
+  if (app.config.cache.app) require('./lib/cache')(app);
+}
