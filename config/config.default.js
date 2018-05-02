@@ -5,6 +5,6 @@ module.exports = {
     client: {
     },
     app: true,
-    agent: false,
+    agent: true,
   },
 };
