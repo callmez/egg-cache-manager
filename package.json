@@ -1,13 +1,13 @@
 {
   "name": "egg-cache-manager",
   "version": "1.2.3",
-  "description": "node-cache-manager plugin for egg",
-  "main": "app.js",
+  "description": "catbox cache plugin for egg",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "cache-manager": "^2.9.0"
+    "catbox": "^10.0.2",
+    "catbox-memory": "^3.1.2"
   },
   "devDependencies": {},
   "repository": {
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "egg",
-    "cache"
+    "cache",
+    "catbox"
   ],
   "author": "callme-z@qq.com",
   "bugs": {

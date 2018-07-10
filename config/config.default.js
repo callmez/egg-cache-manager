@@ -2,8 +2,10 @@
 
 module.exports = {
   cache: {
-    client: {
-    },
+    app: true,
+    agent: true,
+  },
+  catbox: {
     app: true,
     agent: true,
   },
