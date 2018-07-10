@@ -10,22 +10,28 @@ exports.cache = {
   package: 'egg-cache-manager',
 };
 
-// @see [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager)
 // [Project]/config/config.default.js  // Optional!
 
-module.exports = appInfo => {
+module.exports = app => {
   const config = exports = {};
 
   ...
   
-  config.cache = {
+  config.catbox = {
     client: {
-      store: 'memory', // default store
-      options: { 
-        ... 
-      }
+      store: require('catbox-redis'), // set cache store, default is catbox-memory
+      // store options
     }
   }
+  
+  config.cache = { // catbox policy settings
+    client: {
+      catbox: 'xxx', // required for multi catbox clients (key by config.catbox.clients)
+      segment: 'partition', // policy segment,
+      // catbox policy options
+    },
+  };
+  
 
   ...
   

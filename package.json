@@ -1,7 +1,7 @@
 {
   "name": "egg-cache-manager",
-  "version": "1.2.3",
-  "description": "catbox cache plugin for egg",
+  "version": "2.0.1",
+  "description": "catbox cache plugin for egg.js",
   "directories": {
     "lib": "lib"
   },
